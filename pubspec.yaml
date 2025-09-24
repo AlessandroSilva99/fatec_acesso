@@ -1,0 +1,38 @@
+name: fatec_acesso
+description: Sistema de controle de acesso Fatec - Flutter Mobile
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Navegação e UI
+  cupertino_icons: ^1.0.6
+
+  # Geração de QR Code
+  qr_flutter: ^4.1.0
+
+  # Leitor de QR Code
+  mobile_scanner: ^5.1.1
+
+
+  # Requisições HTTP (futuramente para conectar com Django)
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo_fatec_pb.png
+
