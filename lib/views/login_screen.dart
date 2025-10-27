@@ -24,7 +24,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 30),
 
-              // Texto Login + Perfil
+
               const Text(
                 "Login",
                 style: TextStyle(
@@ -34,7 +34,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 5),
               Text(
-                perfil, // "Aluno" ou "Segurança"
+                perfil, 
                 style: const TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.w500,
@@ -42,7 +42,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 40),
 
-              // Campo CPF
+
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 40),
                 child: TextField(
@@ -57,7 +57,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 20),
 
-              // Campo Senha
+
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 40),
                 child: TextField(
@@ -73,13 +73,13 @@ class LoginScreen extends StatelessWidget {
 
               const SizedBox(height: 40),
 
-              // Botões Voltar e Entrar
+
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 40),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    // Botão Voltar
+    
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.grey[400],
@@ -93,7 +93,7 @@ class LoginScreen extends StatelessWidget {
                       child: const Text("Voltar"),
                     ),
 
-                    // Botão Entrar
+
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.blue,
